@@ -19,7 +19,10 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
         isApplicationAvilible(getApplicationContext(), "com.example.trafficmanager3");
     }
-
+//测试用的
+public void test(){
+	//hfdsjhjsfsdfjkdskjf
+}
     public boolean isApplicationAvilible(Context context, String appPackageName) {
         PackageManager packageManager = context.getPackageManager();// 获取packagemanager
         List<PackageInfo> pinfo = packageManager.getInstalledPackages(0);// 获取所有已安装程序的包信息
