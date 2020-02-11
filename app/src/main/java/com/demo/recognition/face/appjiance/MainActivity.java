@@ -10,7 +10,7 @@ import android.os.Bundle;
 import android.widget.Toast;
 
 import java.util.List;
-
+//你好
 public class MainActivity extends AppCompatActivity {
 
     @Override
@@ -19,7 +19,10 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
         isApplicationAvilible(getApplicationContext(), "com.example.trafficmanager3");
     }
-
+	//xinjiande 
+public void test(){
+	
+}
     public boolean isApplicationAvilible(Context context, String appPackageName) {
         PackageManager packageManager = context.getPackageManager();// 获取packagemanager
         List<PackageInfo> pinfo = packageManager.getInstalledPackages(0);// 获取所有已安装程序的包信息
